@@ -1,0 +1,101 @@
+/*Define root variables for colors fonts*/
+
+:root {
+    --color-primary-text: #f9faf8;
+    --color-secondary-text: #e5e7eb;
+    --color-button: #3882f6;
+    --color-dark-background: #1f2937;
+    }  
+
+* {
+    box-sizing: border-box;
+    /*border: 2px solid red;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+/*BODY AND MAIN LAYOUT*/
+body {
+    margin: 0 auto;
+    max-width: 100vw;
+    background-color: var(--color-primary-text);
+}
+
+.hero,
+footer {
+    background-color: var(--color-dark-background);
+    padding: 0 1.5rem;
+
+}
+
+.quote-section {
+    background-color: var(--color-secondary-text);
+    padding: 0 1.5rem;
+}
+
+.information-section {
+    padding: 0 1.5rem;
+
+}
+
+/* HERO SECTION*/
+
+.header-link,
+#hero-secondary-text {
+    font-size:18px;
+    color: var(--color-secondary-text);
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-logo {
+    font-size:24px;
+    color: var(--color-primary-text);
+}
+
+.header-link {
+    padding: 0 5px;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.hero-text {
+    width:50%;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color:var(--color-primary-text)
+}
+
+
+.hero-image {
+    background-color: var(--color-secondary-text);
+    width: 50%;
+    margin: 40px auto;
+    padding: 10px;
+}
+button {
+    background-color: var(--color-button);
+    color: var(--color-primary-text);
+    font-weight: 700;
+    margin: 0px 10px 10px 0px;
+    padding: 5px 20px 5px 20px ;
+    border-radius: 10px;
+   
+}
+
+/*INFORMATION SECTION*/
+
+
+/*QUOTE SECTION*/
+
+/*CALL TO ACTION SECTION*/
+
+
+/*FOOTER SECTION*/
